@@ -3,28 +3,42 @@
 
     <meta charset="UTF-8">
     <title>Age Calculator</title>
-    
+    <link rel="icon" type="image/png" href="calen.png">
     <link rel="stylesheet" href="design.css">
-    
+
 
 </head>
 <body>
 
     <div class="frame">
-
-        <h1>Age Calculator</h1>
-        <p>Select your date of birth to calculate your age</p>  
+        <div class="icon_container">
+            <img src="calen.png" alt="icon" class="icon">
+        </div>
+        <p class="title">Age Calculator</p>
+        <p class="description">Select your date of birth to calculate your age</p>  
         
-        <label for="date">Date of Birth</label>
+        <div class="date_title">
+            <p>Date of Birth</p>
+        </div>
         <input type="date" id="date" name="date" >
+        
+        <button class="button">Calculate Age</button>
 
-        <button>Calculate Age</button>
+        <div class="line-text">
+            <span>Your Age</span>
+        </div>
 
-        <p>Your Age</p>
+        <div class="age_container">
+            <h1 class="age">0 years old</h1>
+        </div>
+        
 
-        <h1>20 yrs old</h1>
+        <div class="info_container">
+            <img src="info.png" alt="icon" class="info_ico">
+            <p class="info">Age is calculated based on today's date.</p>
+        </div>
 
-        <p>Age is calculated based on today's date.</p>
+        
         
 
 

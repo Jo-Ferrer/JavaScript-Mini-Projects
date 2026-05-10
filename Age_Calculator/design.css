@@ -8,20 +8,182 @@ body{
 .frame{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 
     background-color: white;
     box-shadow: 0px 0px 9px gray;
     border-radius: 15px;
 
-    width: 400px;
+    width: 420px;
     height: 600px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.icon_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4d4f0;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+
+
+}
+
+.icon{
+
+    width: 35px;
+    height: 35px;
+    
+    
+}
+
+.title{
+
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: 550;
+
+}
+
+.description{
+
+    color: gray;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    font-weight: 40px;
+
+}
+
+.date_title{
+
+    align-self: flex-start;
+    padding-left: 30px;
+    font-size: 13px;
+    font-weight:bold;
 
 }
 
 input[type="date"]{
-
+    
+    border: 1px solid gray;
+    color: gray;
+    margin-top: 0px;
     padding: 5px;
     font-size: 16px;
+    width: 340px;
+    height: 40px;
+    border-radius: 6px;
 
 }
+
+input[type="date"]:hover{
+
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.button{
+
+    font-size: 15px;
+    color: white;
+    background-color: #265ee2;
+    border: #265ee2;
+
+    margin-top: 10px;
+    width: 340px;
+    height: 45px;
+    border-radius: 6px;
+
+}
+
+.button:hover{
+
+    background-color: #1b50ce;
+    cursor: pointer;
+
+}
+
+.button:active{
+
+    background-color: #1748bb;
+    cursor: pointer;
+    transform: scale(0.98);
+
+}
+
+.line-text {
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 345px;
+    margin-top: 20px;
+    font-weight: lighter;
+    
+}
+
+.line-text::before,
+.line-text::after {
+    content: "";
+    flex: 1;
+    height: 0.5px;
+    background-color: rgb(207, 203, 203);
+}
+
+.age_container{
+
+    background-color: #265ee247;
+    width: 340px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 1px solid #265ee2;
+    margin-bottom: 30px
+}
+
+.age{
+
+    color: #1b5fff;
+}
+
+.info_container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+
+
+}
+
+.info_ico{
+
+    width: 25px;
+    height: 25px;
+
+}
+
+.info{
+
+    
+    color: rgb(140, 139, 139);
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+
