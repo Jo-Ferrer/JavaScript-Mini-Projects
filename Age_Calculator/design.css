@@ -158,6 +158,12 @@ input[type="date"]:hover{
 .age{
 
     color: #1b5fff;
+    margin-right: 10px;
+}
+
+.yearsold{
+
+    color: #1b5fff;
 }
 
 .info_container{
