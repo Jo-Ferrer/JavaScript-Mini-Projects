@@ -15,9 +15,9 @@ This repository serves as a core part of my **Frontend Development Portfolio**. 
 
 ## 📁 Project Gallery
 
-| Project | Description | Finished Date | Link |
-| :--- | :--- | :--- | :--- |
-| **📅 Age Calculator** | Calculates age in years, months, and days with real-time validation. | May 17, 2026 | [View Project](./Age_Calculator) |
+| Project | Description | Finished Date | Link | Live Demo |
+| :--- | :--- | :--- | :--- | :--- |
+| **📅 Age Calculator** | A high-precision tool for calculating age and time intervals with real-time validation. | May 17, 2026 | [📂 Code](./Age_Calculator) | [🚀 Live Demo](https://your-username.github.io/javascript-mini-projects/age-calculator/) |
 | **Coming Soon...** | Next project in development. | TBD | |
 
 ---
