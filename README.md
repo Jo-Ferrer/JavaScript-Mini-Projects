@@ -13,6 +13,12 @@ This repository serves as a core part of my **Frontend Development Portfolio**. 
 
 ---
 
+## 🔗 Live Gallery
+**Experience the live versions of all projects here:** 
+👉 **[Launch Project Hub](https://jo-ferrer.github.io/JavaScript-Mini-Projects/)**
+
+---
+
 ## 📁 Project Gallery
 
 | Project | Description | Finished Date | Link |
