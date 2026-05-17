@@ -15,9 +15,9 @@ This repository serves as a core part of my **Frontend Development Portfolio**. 
 
 ## 📁 Project Gallery
 
-| Project | Description | Finished Date | Link | Live Demo |
-| :--- | :--- | :--- | :--- | :--- |
-| **📅 Age Calculator** | A high-precision tool for calculating age and time intervals with real-time validation. | May 17, 2026 | [📂 Code](./Age_Calculator) | [🚀 Live Demo](https://your-username.github.io/javascript-mini-projects/age-calculator/) |
+| Project | Description | Finished Date | Link |
+| :--- | :--- | :--- | :--- |
+| **📅 Age Calculator** | A high-precision tool for calculating age and time intervals with real-time validation. | May 17, 2026 | [📂 Code](./Age_Calculator) |
 | **Coming Soon...** | Next project in development. | TBD | |
 
 ---
