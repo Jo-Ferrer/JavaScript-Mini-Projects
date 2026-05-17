@@ -17,7 +17,7 @@ This repository serves as a core part of my **Frontend Development Portfolio**. 
 
 | Project | Description | Finished Date | Link |
 | :--- | :--- | :--- | :--- |
-| **📅 Age Calculator** | Calculates age in years, months, and days with real-time validation. | May 17, 2026 | [View Project](./age-calculator) |
+| **📅 Age Calculator** | Calculates age in years, months, and days with real-time validation. | May 17, 2026 | [View Project](./Age_Calculator) |
 | **Coming Soon...** | Next project in development. | TBD | |
 
 ---
