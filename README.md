@@ -24,7 +24,7 @@ This repository serves as a core part of my **Frontend Development Portfolio**. 
 | Project | Description | Finished Date | Link |
 | :--- | :--- | :--- | :--- |
 | **📅 Age Calculator** | A high-precision tool for calculating age and time intervals with real-time validation. | May 17, 2026 | [📂 Code](./Age_Calculator) |
-| **🌡️ Temperature Converter** | In development. | TBD | | [📂 Code](./Temperature_Converter) |
+| **🌡️ Temperature Converter** | In development. | TBD | [📂 Code](./Temperature_Converter) |
 
 ---
 
