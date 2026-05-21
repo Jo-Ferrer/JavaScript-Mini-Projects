@@ -13,5 +13,144 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 9px gray;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.icon {
+
+    width: 45px;
+    height: 45px;
+    
+}
+
+.title {
+
+    font-size: 24px;
+    font-weight: 550;
+    margin-bottom: 18px;
+    
+
+}
+
+.text {
+
+    align-self: flex-start;
+    margin-top: 0px;
+    padding-left: 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+.input_temp {
+
+    width: 300px;
+    height: 38px;
+
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+
+.select {
+
+    width: 300px;
+    height: 38px;
+
+    border: 1px solid grey;
+    color: gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-image: url("dropdown.png");
+    background-repeat: no-repeat;
+    
+    background-position: right 16px center; 
+    background-size: 16px;
+
+}
+
+.butt{
+
+    width: 300px;
+    height: 40px;
+
+    font-size: 15px;
+    background-color: #327deb;
+    color: white;
+    border: #327deb;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
+}
+
+.butt:hover{
+
+    background-color: #2966c3;
+    cursor: pointer;
+
+}
+
+.butt:active{
+
+    background-color: #235aac;
+    cursor: pointer;
+    transform: scale(0.98);
+
+}
+
+.result_container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 90px;
+    width: 300px;
+    border-radius: 6px;
+    background-color: #689ef01b;
+
+}
+
+.result_text {
+
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+
+}
+
+.result_value {
+
+    color: black;
+    font-size: 28px;
+    font-weight: 100px;
+    margin-top: 0px;
 
 }
