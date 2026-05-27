@@ -23,8 +23,8 @@ This repository serves as a core part of my **Frontend Development Portfolio**. 
 
 | Project | Description | Finished Date | Link |
 | :--- | :--- | :--- | :--- |
-| **📅 Age Calculator** | A high-precision tool for calculating age and time intervals with real-time validation. | May 17, 2026 | [📂 Code](./Age_Calculator) |
-| **🌡️ Temperature Converter** | In development. | TBD | [📂 Code](./Temperature_Converter) |
+| **📅 Age Calculator** | A date-based calculator that determines a person's current age from their birth date. | May 17, 2026 | [📂 Launch](./Age_Calculator) |
+| **🌡️ Temperature Converter** | A responsive temperature conversion tool supporting Celsius, Fahrenheit, and Kelvin scales. | May 27, 2026 | [📂 Launch](./Temperature_Converter) |
 
 ---
 
