@@ -60,13 +60,13 @@ button.onclick = function(){
     else if(prevTemp == "k" && afterTemp == "f"){
 
         const kF = (currentTemp - 273.15) * 1.8 + 32;
-        document.getElementById("result").textContent = `${kF.toFixed(3)}°K`;
+        document.getElementById("result").textContent = `${kF.toFixed(3)}°F`;
 
     }
     else if(prevTemp == "k" && afterTemp == "c"){
 
         const kC = currentTemp - 273.15;
-        document.getElementById("result").textContent = `${kC.toFixed(3)}°K`;
+        document.getElementById("result").textContent = `${kC.toFixed(3)}°C`;
 
     }
 
