@@ -30,19 +30,25 @@ button.onclick = function(){
 
     console.log("--AGEDATE--");
 
-    if(birth_month > current_month && birth_day > current_day){
+    if(birth == ""){
+
+        document.getElementById("age").textContent = "INPUT A DATE";
+
+
+    }
+    else if(birth_month > current_month && birth_day > current_day){
 
         age -= 1;
 
         console.log(`My age is ${age}`);
-        document.getElementById("age").textContent = age;
+        document.getElementById("age").textContent = `${age} years old`;
 
 
     }
     else{
 
         console.log(`My age is ${age}`);
-        document.getElementById("age").textContent = age;
+        document.getElementById("age").textContent = `${age} years old`;
 
     }
 

@@ -161,11 +161,6 @@ input[type="date"]:hover{
     margin-right: 10px;
 }
 
-.yearsold{
-
-    color: #1b5fff;
-}
-
 .info_container{
 
     display: flex;
