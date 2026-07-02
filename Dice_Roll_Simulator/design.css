@@ -5,12 +5,19 @@
 
 body {
 
+    background-image: url("img/casino.png");
+    background-size: cover;        /* makes it fit screen */
+    background-repeat: no-repeat;  /* no repeating */
+    background-position: center;  /* center the image */
+
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     
 
 }
+
 
 .mainFrame{
 
@@ -18,9 +25,11 @@ body {
     flex-direction: column;
     align-items: center; 
 
+    background-color: rgba(68, 7, 7, 0.767);
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgb(157, 156, 156);
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
     padding: 20px;
+    border: 10px solid rgb(27, 13, 2) ;
 
 
 
@@ -28,6 +37,7 @@ body {
 
 .titleFrame{
 
+    color: #f4cd95;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,32 +45,243 @@ body {
     gap: 5px;
     font-family: ElmsSans;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
     gap: 15px;
     height: 50px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    
 
 }
 
 .dicePic{
 
     width: 50px;
-    filter: drop-shadow(3px 3px 2px black);
+    filter: drop-shadow(3px 3px 2px rgb(0, 0, 0));
 }
 
 .titleText{
 
-    text-shadow: 2px 2px 1px rgb(191, 191, 191);
+    text-shadow: 0 0 20px #fff;
 
 }
 
 .desriptionText{
 
     margin-top: 0px;
-    color: gray;
+    margin-bottom: 30px;
+    color: #f1eeea85;
+    font-family: ElmsSans;
+    font-size: 17px;
+    font-weight: 100px;
+    text-shadow: 0 0 5px #c3c1c1;
+
+}
+
+.RollPic{
+
+    width: 100px;
+    filter: drop-shadow(0px 0px 30px rgb(3, 0, 0));
+    margin-bottom: 20px;
+    
+}
+
+.RollPic.rolling {
+    animation: roll 0.5s ease;
+}
+
+@keyframes roll {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(1440deg); }
+}
+
+.diceButton{
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    color: white;
+    background-color: rgb(158, 17, 17);
+    border: 1px solid goldenrod;
+    font-family: ElmsSans;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 45px;
+    width: 300px;
+
+}
+
+.diceButton:hover{
+    background-color: rgb(184, 24, 24);
+    border-color: gold;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+    transform: translateY(-2px);
+}
+
+.diceButton:active{
+    background-color: rgb(130, 12, 12);
+    transform: translateY(1px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+}
+
+.spade{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 0px;
+
+    color: #f4cd95;
+    text-shadow: 0 0 5px #fff;
+    font-family: ElmsSans;
+    font-size: 15px;
+
+}
+
+.spade::before,
+.spade::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: #f4cd95;
+    box-shadow: 0 0 5px #f4cd95;
+}
+
+.historyContainer{
+
+    background-color: rgba(0, 0, 0, 0.426)
+    ;
+    width: 350px;
+    height: 200px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(99, 17, 17);
+    border-radius: 13px;
+
+}
+
+.historyTitleContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 30px;
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0);
+
+}
+
+.historyTitle{
+
+    color: #f4cd95;
     font-family: ElmsSans;
     font-weight: bold;
 
+    
+
 }
+
+.trashButton{
+
+    background: none;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+}
+
+.trashButton img {
+    width: 20px;
+    height: 24px;
+    display: block;
+}
+
+.trashButton:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.trashButton:active {
+    transform: scale(0.95);
+}
+
+.historyHeader{
+
+    display: grid;
+    grid-template-columns: 90px 1fr 100px;
+    align-items: center;
+    color: #f4cd95;
+    font-family: ElmsSans;
+    font-size: 15px;
+
+}
+
+.historyRow{
+    display: grid;
+    grid-template-columns: 30px  1fr 106px;
+    align-items: center;
+    color: #f4cd95;
+    font-family: ElmsSans;
+    font-size: 15px;
+    height: 30px;
+}
+
+.result{
+
+    display: flex;
+    width: 90px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.dicePicHistory{
+
+    width: 27px;
+
+}
+
+
+
+
+
+
+.lineDescription{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.endDescription{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    color: #f4cd95;
+    text-shadow: 0 0 5px #fff;
+    font-family: ElmsSans;
+    font-size: 12px;
+
+}
+
+.endDescription::before,
+.endDescription::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #f4cd95;
+    box-shadow: 0 0 5px #f4cd95;
+}
+

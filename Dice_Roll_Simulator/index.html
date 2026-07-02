@@ -17,42 +17,125 @@
             
         <div class="titleFrame">
             
-            <img class="dicePic" src="dice.png" alt="logo">
+            <img class="dicePic" src="img/dice.png" alt="logo">
             <p class="titleText">Dice Roll Simulator</p>
 
         </div>
             
-            <p class="desriptionText">Roll dice and see your results</p>
+        <p class="desriptionText">Roll dice and see your results</p>
 
-            <div>
+        <div>
 
-                <img src="" alt="dice">
+            <img id="currectDie" class="RollPic" src="img/1.png" alt="dice">
+
+        </div>
+
+        <div>
+
+            <button id="button" class="diceButton">Roll Dice</button>
+
+        </div>
+
+        <div class="lineDescription">
+
+            <img src="" alt="">
+            <p class="spade">♤</p>
+
+        </div>
+
+        <div class="historyContainer" >
+
+            <div class="historyTitleContainer">
+
+                <p class="historyTitle">ROLL HISTORY</p>
+                <button id="trashButton" class="trashButton">
+                    <img src="img/trash.png" alt="Delete">
+                </button>
 
             </div>
 
-            <div>
+            <div class="history">
 
-                <button>Roll Dice</button>
+                <div class="historyHeader">
+                    <span>#</span>
+                    <span>RESULT</span>
+                    <span>TIME</span>
+                </div>
+
+                <div id="history-list">
+
+                    <div class="historyRow">
+                        <span>1</span>
+
+                        <div class="result">
+                            <img id="picResult1" class="dicePicHistory">
+                            <span id="numResult1"></span>
+                        </div>
+
+                        <span id="time1"></span>
+                    </div>
+
+                    <div class="historyRow">
+                        <span>2</span>
+
+                        <div class="result">
+                            <img id="picResult2" class="dicePicHistory">
+                            <span id="numResult2"></span>
+                        </div>
+
+                        <span id="time2"></span>
+                    </div>
+
+                    <div class="historyRow">
+                        <span>3</span>
+
+                        <div class="result">
+                            <img id="picResult3" class="dicePicHistory">
+                            <span id="numResult3"></span>
+                        </div>
+
+                        <span id="time3"></span>
+                    </div>
+
+                    <div class="historyRow">
+                        <span>4</span>
+
+                        <div class="result">
+                            <img id="picResult4" class="dicePicHistory">
+                            <span id="numResult4"></span>
+                        </div>
+
+                        <span id="time4"></span>
+                    </div>
+
+                    <div class="historyRow">
+                        <span>5</span>
+
+                        <div class="result">
+                            <img id="picResult5" class="dicePicHistory">
+                            <span id="numResult5"></span>
+                        </div>
+
+                        <span id="time5"></span>
+                    </div>
+
+                </div>
 
             </div>
+        
+        </div>
 
-            <div>
+        
 
-                <p>Roll history</p>
-                <button><img src="" alt="">trash</button>
+        <div class="lineDescription">
 
+            <img src="" alt="">
+            <p class="endDescription">STANDARD 6 - SIDED DICE (1-6)</p>
 
-            </div>
-
-            <div>
-
-                <img src="" alt="">
-                <p>Standard 6-sided dice (1-6)</p>
-
-            </div>
+        </div>
 
 
-        </div>   
+    </div>   
 
     <script src="script.js"></script>
 
