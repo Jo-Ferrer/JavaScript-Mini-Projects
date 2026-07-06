@@ -26,6 +26,7 @@ This repository serves as a core part of my **Frontend Development Portfolio**. 
 | **📅 Age Calculator** | A date-based calculator that determines a person's current age from their birth date. | May 17, 2026 | [Launch](./Age_Calculator) |
 | **🌡️ Temperature Converter** | A responsive temperature conversion tool supporting Celsius, Fahrenheit, and Kelvin scales. | May 27, 2026 | [Launch](./Temperature_Converter) |
 | **🎲 Dice Roll Simulator** | A simple dice rolling simulator featuring animated rolls and a roll history tracker.  | July 2, 2026 | [Launch](./Dice_Roll_Simulator) |
+| **🔒 Password Generator** | ...  | TBA | [Launch](./Password_Generator) |
 
 ---
 
