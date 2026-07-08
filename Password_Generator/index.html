@@ -10,28 +10,47 @@
 </head>
 <body> 
 
-    <label for="length">Password Length</label>
+    <div class="mainFrame">
 
-    <input
-        type="range"
-        id="length"
-        min="8"
-        max="32"
-        value="16"
-        class="slider"
-    >
+        <img class="lockPic" src="img/lock.png" alt="lock">
+        <p class="title">Password Generator</p>
+        <p class="description">Create strong, secure passwords in seconds.</p>
+        
+        <div class="passwordFrame">
 
-    <p>Length: <span id="lengthValue">16</span></p>
+            <p class="password">7Kf!pQ2#Lm9@zT</p>
+            <button class="copyButton"><img src="img/copy.png" alt="copy"></button>
 
-    <button id="button" class="button">PINDUTIN MO KO</button>
+        </div>
+
+        <div class="lengthFrame">
+
+            <p class="lengthText">Length</p>
+            <p id="value" class="lengthValue"></p>
+
+        </div>
+
+        <input
+            id="slider"
+            type="range"
+            class="slider"
+            min="4"
+            max="32"
+            value="16">
+
+        <div class="numFrame">
+
+            <p class="numText">4</p>
+            <p class="numText">32</p>
+
+        </div>
+
+        
+
+        
 
 
-
-
-
-
-
-
+    </div>
 
     <script src="script.js"></script>
     
