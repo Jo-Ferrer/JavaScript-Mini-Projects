@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 90px 30px;
+    padding: 50px 30px;
 
     width: 90%;
     max-width: 350px;
@@ -106,8 +106,27 @@ body {
     background: #359aff;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    
 
 }
+
+.copyButton:hover{
+
+    background: #2e84da;
+    box-shadow: 0 8px 18px rgba(149, 149, 149, 0.35);
+    transform: translateY(-1px);
+
+}
+
+.copyButton:active{
+
+    background: #2366a9;
+    transform: translateY(1px);
+    box-shadow: 0 3px 8px rgba(119, 119, 119, 0.35);
+
+}
+
 
 .lengthFrame{
 
@@ -116,7 +135,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0%;
-    gap: 75%;
+    gap: 70%;
 
     width: 100%;
 
@@ -128,6 +147,20 @@ body {
 
     font-family: ElmsSans;
     font-weight: 650;
+    
+
+}
+
+.valueFrame{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    padding: 0.3rem;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
 
 }
 
@@ -135,12 +168,8 @@ body {
 
     font-family: ElmsSans;
     font-weight: 550;
-    border: 1px solid #d8d8d8;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border-radius: 8px;
+    margin: 0%;
+    
     
 }
 
@@ -177,14 +206,9 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 90%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     width: 100%;
-   
-    
-    
-
-   
-
     background: #FFFFFF;
 
 }
@@ -196,4 +220,64 @@ body {
     margin: 0%;
     color: #616060b3;
 }
+
+.checkboxMain{
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #E2E3F3;
+    border-radius: 13px;
+    padding: 1rem;
+    width: 90%;
+    overflow: hidden;
+
+
+}
+
+.checkboxContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.checkboxContainer input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    accent-color: #298ff6;
+
+
+}
+
+.checkboxContainer label{
+
+    font-family: ElmsSans;
+    font-size: 1.1rem;
+    font-weight: 650;
+    margin-right: 20px;
+
+}
+
+.checkboxDescContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-right: 1rem;
+
+    font-family: ElmsSans;
+    color: #454545fd;
+    font-weight: 520;
+    font-size: 0.7rem;
+    
+    
+}
+
 
