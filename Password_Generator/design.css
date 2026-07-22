@@ -21,7 +21,8 @@ body {
     padding: 50px 30px;
 
     width: 90%;
-    max-width: 350px;
+    max-width: 327px;
+    min-width: 300px;
     height: auto;
 
     background: #FFFFFF;
@@ -229,7 +230,7 @@ body {
     border-radius: 13px;
     padding: 1rem;
     width: 90%;
-    overflow: hidden;
+    
 
 
 }
