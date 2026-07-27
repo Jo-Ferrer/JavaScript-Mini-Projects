@@ -18,10 +18,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 30px;
+    padding: 30px 30px;
 
     width: 90%;
-    max-width: 327px;
+    max-width: 330px;
     min-width: 300px;
     height: auto;
 
@@ -29,6 +29,7 @@ body {
     box-shadow: 0px 0px 16px 16px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
     overflow: hidden;
+    
 
 }
 
@@ -98,6 +99,7 @@ body {
     color: #000000
 
 }
+
 
 .copyButton{
     
@@ -239,7 +241,7 @@ body {
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
 
@@ -270,9 +272,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 24px;
-    margin-right: 1rem;
-
+    margin-right: 0.5rem;
+    gap: 1rem;
     font-family: ElmsSans;
     color: #454545fd;
     font-weight: 520;
@@ -280,5 +281,115 @@ body {
     
     
 }
+
+.strengthMain{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    width: 90%;
+    border: 2px solid #E2E3F3;
+    border-radius: 13px;
+    padding: 1rem;
+
+}
+
+.strengthContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: ElmsSans;
+    font-weight: 520;
+    font-size: 1rem;
+    
+}
+
+.strengthContainer p{
+
+    margin-top: 0%;
+
+}
+
+.strength-bars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.bar{
+    
+    width: 100px;
+    height:10px;
+    background:#ddd;
+    border-radius:20px;
+}
+
+.strengthDescription{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: ElmsSans;
+    font-weight: 520;
+    font-size: 0.9rem;
+    color: #454545fd;
+
+}
+
+.tipMain{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #2990f637;
+    background-color: #2990f637;
+    border-radius: 13px;
+    padding: 1rem;
+    width: 90%;
+    margin-top: 0.5rem;
+    
+}
+
+.lightbulb{
+
+    height: 20px;
+    width: 20px;
+
+}
+
+.tip{
+
+    font-family: ElmsSans;
+    font-weight: 520;
+    font-size: 0.9rem;
+    color: #298ff6ff;
+
+}
+
+
+.tipDesc{
+
+    font-family: ElmsSans;
+    font-weight: 520;
+    font-size: 0.7rem;
+    color: #454545fd;
+
+}
+
 
 
