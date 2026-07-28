@@ -17,9 +17,9 @@
         <p class="description">Create strong, secure passwords in seconds.</p>
         
         <div class="passwordFrame">
-
-            <p class="password">7Kf!pQ2#Lm9@zT</p>
-            <button class="copyButton"><img src="img/copy.png" alt="copy"></button>
+            
+            <p id="passwordText" class="password"></p>
+            <button id="copyButt" class="copyButton">Copy</button>
 
         </div>
 
@@ -47,6 +47,9 @@
             <p class="numText">32</p>
 
         </div>
+
+        <button id="button" class="generateButton">Generate</button>
+
 
         <div class="checkboxMain">
 
@@ -85,7 +88,7 @@
 
             <div class="strengthContainer">
                 <p>Password Strength</p>
-                <p>Strong</p>
+                <p id="strengthText"></p>
             </div>
 
             <div class="strength-bars">
@@ -98,7 +101,7 @@
 
             <div class="strengthDescription">
 
-                <span>Great! Your password is strong.</span>
+                <span id="strengthDescription"></span>
 
             </div>
             
